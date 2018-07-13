@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="bitbucket"
+  <remote  name="github"
            fetch="https://bitbucket.org" />
 
   <default revision="refs/heads/master"
-           remote="bitbucket"
+           remote="github"
            sync-j="4" />
 
-  <project name="miniat/0x1-miniat" remote="bitbucket" path="vm"/>
-  <project name="miniat/0x1-assembler" remote="bitbucket" path="assembler"/>
-  <project name="miniat/0x1-debugger" remote="bitbucket" path="debugger"/>
-  <project name="miniat/0x1-examples" remote="bitbucket" path="examples"/>
-  <project name="miniat/0x1-examples-asms-bins" remote="bitbucket" path="asms"/>
+  <project name="amitkumar-vaghela1989/android-Binder-ServerToClient-callback" remote="github" path="android-Binder-ServerToClient-callback"/>
+  <project name="amitkumar-vaghela1989/gitProject1" remote="github" path="test/gitProject1"/>
 
 </manifest>
